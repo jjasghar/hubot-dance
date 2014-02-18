@@ -13,5 +13,8 @@ describe 'DANCE', ->
     require('../src/DANCE')(@robot)
 
   it 'registers a hear listener', ->
+    expect(@robot.hear).to.have.been.calledWith(/dance/)
+  
+  it 'registers a hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/DANCE/)
 
