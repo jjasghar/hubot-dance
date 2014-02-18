@@ -10,7 +10,7 @@ describe 'DANCE', ->
       respond: sinon.spy()
       hear: sinon.spy()
 
-    require('../src/DANCE')(@robot)
+    require('../src/dance.coffee')(@robot)
 
   it 'registers a hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/dance/)
