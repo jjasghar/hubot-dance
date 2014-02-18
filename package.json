@@ -1,7 +1,7 @@
 {
   "name": "hubot-dance",
   "description": "A hubot script to randomly dance inspired from http://bash.org/?4281",
-  "version": "2.5.0",
+  "version": "3.0.0",
   "author": "JJ Asghar <jjasghar@gmail.com>",
   "license": "MIT",
 

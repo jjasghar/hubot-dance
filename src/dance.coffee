@@ -26,4 +26,4 @@ module.exports = (robot) ->
 
   robot.hear /DANCE\b/, (msg) ->
     for move in dance
-      msg.send "/me gets up and #{move}"
+      msg.send "/me dances #{move}"
