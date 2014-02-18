@@ -29,6 +29,11 @@ Run `npm install hubot-dance`
 ## Sample Interaction
 
 ```
-user1>> DANCE 
-hubot>> :D/-<
+user1>> hubot should dance
+hubot>> /me gets up and :D/-<
+user1>> DANCE
+hubot>> /me dances :D|-<
+hubot>> /me dances :D/-<
+hubot>> /me dances :D\-<
+hubot>> /me dances :D>-<
 ```
