@@ -14,7 +14,7 @@ Add **hubot-dance** to your `package.json` file:
 "dependencies": {
   "hubot": ">= 2.5.1",
   "hubot-scripts": ">= 2.4.2",
-  "hubot-dance": ">= 0.0.0"
+  "hubot-dance": "latest"
 }
 ```
 
